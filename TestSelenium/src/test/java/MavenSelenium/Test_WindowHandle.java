@@ -21,7 +21,7 @@ public class Test_WindowHandle {
 		//System.getProperty("user.dir");
 		//System.setProperty("webdriver.driver.chrome", "/Drivers/chromedriver-win32/chromedriver.exe");
 
-		String path ="C:\\Users\\admin\\git\\repository\\TestSelenium\\Drivers";
+		String path ="C:\\Users\\admin\\git\\repository\\TestSelenium\\Drivers\\chromedriver-win32";
 		System.setProperty("webdriver.chrome.driver", path+"/chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
