@@ -1,5 +1,6 @@
 package MavenSelenium;
 
+import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.Iterator;
 import java.util.Set;
