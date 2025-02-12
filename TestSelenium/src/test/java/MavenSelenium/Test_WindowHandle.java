@@ -17,9 +17,11 @@ public class Test_WindowHandle {
 
 	@Test
 	public void muiltipleWindowHandle() throws InterruptedException {
-		System.getProperty("user.dir");
-		System.setProperty("webdriver.driver.chrome", "/Drivers/chromedriver-win32/chromedriver.exe");
+		//System.getProperty("user.dir");
+		//System.setProperty("webdriver.driver.chrome", "/Drivers/chromedriver-win32/chromedriver.exe");
 
+		String path ="C:\\Users\\admin\\git\\repository\\TestSelenium\\Drivers";
+		System.setProperty("webdriver.chrome.driver", path+"/chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
