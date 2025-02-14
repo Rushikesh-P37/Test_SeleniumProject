@@ -33,3 +33,4 @@ pipeline
             emailext body: 'Summary of the pipeline', subject: 'Pipeline Status', to: 'rushikeshrp049@gmail.com'
          }
     }
+}
