@@ -4,27 +4,14 @@ pipeline
     
     stages 
     {
-        stage('Build') 
+        stage('SeleniumMavenProject') 
         {
             steps 
             {
-                echo 'Build App'
+                echo 'Build the Application and check the window handling script'
             }
         }
-        stage('Test') 
-        {
-            steps 
-            {
-                echo 'Test App'
-            }
-        }
-        stage('Deploy') 
-        {
-            steps 
-            {
-                echo 'Deploy App'
-            }
-        }
+        
     }
     post
     {
